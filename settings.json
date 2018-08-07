@@ -1,13 +1,13 @@
 // Place your settings in this file to overwrite the default settings
 {
-     # Core Config
+     #Core Config
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "minify.minifyExistingOnSave": true,
     "files.eol": "\n",
     "files.defaultLanguage": "php",
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    // Editor: General
+    //Editor: General
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
     "editor.tabCompletion": true,
