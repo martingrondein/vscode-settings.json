@@ -1,13 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
-     #Core Config
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "minify.minifyExistingOnSave": true,
     "files.eol": "\n",
     "files.defaultLanguage": "php",
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    //Editor: General
+
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
     "editor.tabCompletion": true,
@@ -18,37 +17,37 @@
     "editor.selectionHighlight": false,
     "editor.scrollBeyondLastLine": false,
     "editor.fontWeight": "bold",
-    // Editor: Play nicely with PHP PSR-2
+
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.rulers": [80, 120],
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
-    // Workbench
+
     "workbench.colorTheme": "Monokai",
     "workbench.statusBar.visible": true,
     "workbench.view.alwaysShowHeaderActions": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "material-icon-theme",
-    // Language: HTML
+
     "html.format.indentInnerHtml": true,
     "html.suggest.angular1": false,
     "html.suggest.ionic": false,
-    // Language: Typescript
+
     "typescript.check.npmIsInstalled": false,
-    // Language: PHP
+
     "php.validate.enable": true,
     "php.validate.executablePath": "C:/Dev/PHP/php.exe",
     "php.executablePath":  "C:/Dev/PHP/php.exe",
     "php.suggest.basic": false,
     "php.validate.run": "onType",
-    // Plugins: General
+
     "extensions.ignoreRecommendations": true,
     "extensions.showRecommendationsOnlyOnDemand": true,
-    // Plugins: Color Highlight
+
     "color-highlight.matchWords": true,
-    // Plugins: BracketPair Colorizer
+
     "bracketPairColorizer.forceUniqueOpeningColor": false,
     "bracketPairColorizer.timeOut": 0,
     "bracketPairColorizer.scopeLineCSS": [
@@ -57,10 +56,10 @@
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 0.4"
       ],
-    // Plugins: Sync
-    "sync.gist": "bf5e2e2762713a5162d3a8e5eae16525",
-    "sync.lastUpload": "2018-04-20T13:25:17.910Z",
-    "sync.lastDownload": "2018-01-23T13:53:48.918Z",
+
+    "sync.gist": "<your-key-here>",
+    "sync.lastUpload": "2018-02-20T13:25:17.910Z",
+    "sync.lastDownload": "2018-04-23T13:53:48.918Z",
     "sync.host": "",
     "sync.pathPrefix": "",
     "sync.quietSync": false,
@@ -70,7 +69,7 @@
     "sync.forceDownload": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
-    // Plugins: Matching tag stuff
+    
     "highlight-matching-tag.style": {
     "borderWidth": "1px 1px 1px 1px",
     "borderStyle": "dotted",
@@ -89,7 +88,7 @@
     "borderColor": "white",
     "borderRadius": "5px"
     },
-    // Git
+    
     "git.ignoreMissingGitWarning": true
 }
 
